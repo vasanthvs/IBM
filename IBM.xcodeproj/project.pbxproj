@@ -17,6 +17,12 @@
 		579A31B827B4CC1500518489 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 579A318E27B4CC1300518489 /* ContentView.swift */; };
 		579A31B927B4CC1500518489 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 579A318F27B4CC1400518489 /* Assets.xcassets */; };
 		579A31BA27B4CC1500518489 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 579A318F27B4CC1400518489 /* Assets.xcassets */; };
+		57B61B2927BF319A004876DB /* SignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57B61B2827BF319A004876DB /* SignUpView.swift */; };
+		57B61B2A27BF319B004876DB /* SignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57B61B2827BF319A004876DB /* SignUpView.swift */; };
+		57B61B2C27BFE42F004876DB /* ForgotPassView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57B61B2B27BFE42F004876DB /* ForgotPassView.swift */; };
+		57B61B2D27BFE42F004876DB /* ForgotPassView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57B61B2B27BFE42F004876DB /* ForgotPassView.swift */; };
+		57B61B2F27C52ADC004876DB /* DashboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57B61B2E27C52ADC004876DB /* DashboardView.swift */; };
+		57B61B3027C52ADC004876DB /* DashboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57B61B2E27C52ADC004876DB /* DashboardView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +55,9 @@
 		579A31AD27B4CC1500518489 /* Tests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		579A31B127B4CC1500518489 /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
 		579A31B327B4CC1500518489 /* Tests_macOSLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOSLaunchTests.swift; sourceTree = "<group>"; };
+		57B61B2827BF319A004876DB /* SignUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpView.swift; sourceTree = "<group>"; };
+		57B61B2B27BFE42F004876DB /* ForgotPassView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotPassView.swift; sourceTree = "<group>"; };
+		57B61B2E27C52ADC004876DB /* DashboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +108,9 @@
 			children = (
 				579A318D27B4CC1300518489 /* IBMApp.swift */,
 				579A318E27B4CC1300518489 /* ContentView.swift */,
+				57B61B2827BF319A004876DB /* SignUpView.swift */,
+				57B61B2B27BFE42F004876DB /* ForgotPassView.swift */,
+				57B61B2E27C52ADC004876DB /* DashboardView.swift */,
 				579A318F27B4CC1400518489 /* Assets.xcassets */,
 			);
 			path = Shared;
@@ -300,6 +312,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				579A31B727B4CC1500518489 /* ContentView.swift in Sources */,
+				57B61B2927BF319A004876DB /* SignUpView.swift in Sources */,
+				57B61B2F27C52ADC004876DB /* DashboardView.swift in Sources */,
+				57B61B2C27BFE42F004876DB /* ForgotPassView.swift in Sources */,
 				579A31B527B4CC1500518489 /* IBMApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -309,6 +324,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				579A31B827B4CC1500518489 /* ContentView.swift in Sources */,
+				57B61B2A27BF319B004876DB /* SignUpView.swift in Sources */,
+				57B61B3027C52ADC004876DB /* DashboardView.swift in Sources */,
+				57B61B2D27BFE42F004876DB /* ForgotPassView.swift in Sources */,
 				579A31B627B4CC1500518489 /* IBMApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

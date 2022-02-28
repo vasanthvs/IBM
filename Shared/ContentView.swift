@@ -10,6 +10,7 @@ import SwiftUI
 struct ContentView: View {
     @State var usrName = ""
     @State var password = ""
+    @State var show = false
     var body: some View {
         VStack (spacing: 15) {
             
@@ -90,11 +91,12 @@ struct ContentView: View {
                     .font(.title2)
                     .underline()
                     .fontWeight(.bold)
-                   
+                    
                     .foregroundColor(.white)
                     .animation(.easeIn)
                     .padding(.horizontal, 20)
                    //Spacer()
+                
             }
           //  Spacer()
             
@@ -119,7 +121,7 @@ struct ContentView: View {
             
             Button(action: {
                 
-                
+                self.show.toggle()
                 
             }) {
                 
